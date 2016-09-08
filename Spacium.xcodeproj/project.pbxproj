@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7ECF5BB1D80E3A000CD8B54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ECF5BA1D80E3A000CD8B54 /* AppDelegate.swift */; };
+		F7ECF5BD1D80E3A000CD8B54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ECF5BC1D80E3A000CD8B54 /* ViewController.swift */; };
+		F7ECF5C01D80E3A000CD8B54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7ECF5BE1D80E3A000CD8B54 /* Main.storyboard */; };
+		F7ECF5C21D80E3A000CD8B54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7ECF5C11D80E3A000CD8B54 /* Assets.xcassets */; };
+		F7ECF5C51D80E3A000CD8B54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7ECF5C31D80E3A000CD8B54 /* LaunchScreen.storyboard */; };
+		F7ECF5D01D80E3A200CD8B54 /* SpaciumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ECF5CF1D80E3A200CD8B54 /* SpaciumTests.swift */; };
+		F7ECF5DB1D80E3A200CD8B54 /* SpaciumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ECF5DA1D80E3A200CD8B54 /* SpaciumUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7ECF5CC1D80E3A200CD8B54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7ECF5AF1D80E39F00CD8B54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7ECF5B61D80E39F00CD8B54;
+			remoteInfo = Spacium;
+		};
+		F7ECF5D71D80E3A200CD8B54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7ECF5AF1D80E39F00CD8B54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7ECF5B61D80E39F00CD8B54;
+			remoteInfo = Spacium;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F7ECF5B71D80E39F00CD8B54 /* Spacium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spacium.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7ECF5BA1D80E3A000CD8B54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F7ECF5BC1D80E3A000CD8B54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F7ECF5BF1D80E3A000CD8B54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7ECF5C11D80E3A000CD8B54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7ECF5C41D80E3A000CD8B54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7ECF5C61D80E3A000CD8B54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7ECF5CB1D80E3A200CD8B54 /* SpaciumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaciumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7ECF5CF1D80E3A200CD8B54 /* SpaciumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaciumTests.swift; sourceTree = "<group>"; };
+		F7ECF5D11D80E3A200CD8B54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7ECF5D61D80E3A200CD8B54 /* SpaciumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaciumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7ECF5DA1D80E3A200CD8B54 /* SpaciumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaciumUITests.swift; sourceTree = "<group>"; };
+		F7ECF5DC1D80E3A200CD8B54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7ECF5B41D80E39F00CD8B54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7ECF5C81D80E3A200CD8B54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7ECF5D31D80E3A200CD8B54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7ECF5AE1D80E39F00CD8B54 = {
+			isa = PBXGroup;
+			children = (
+				F7ECF5B91D80E39F00CD8B54 /* Spacium */,
+				F7ECF5CE1D80E3A200CD8B54 /* SpaciumTests */,
+				F7ECF5D91D80E3A200CD8B54 /* SpaciumUITests */,
+				F7ECF5B81D80E39F00CD8B54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7ECF5B81D80E39F00CD8B54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7ECF5B71D80E39F00CD8B54 /* Spacium.app */,
+				F7ECF5CB1D80E3A200CD8B54 /* SpaciumTests.xctest */,
+				F7ECF5D61D80E3A200CD8B54 /* SpaciumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7ECF5B91D80E39F00CD8B54 /* Spacium */ = {
+			isa = PBXGroup;
+			children = (
+				F7ECF5BA1D80E3A000CD8B54 /* AppDelegate.swift */,
+				F7ECF5BC1D80E3A000CD8B54 /* ViewController.swift */,
+				F7ECF5BE1D80E3A000CD8B54 /* Main.storyboard */,
+				F7ECF5C11D80E3A000CD8B54 /* Assets.xcassets */,
+				F7ECF5C31D80E3A000CD8B54 /* LaunchScreen.storyboard */,
+				F7ECF5C61D80E3A000CD8B54 /* Info.plist */,
+			);
+			path = Spacium;
+			sourceTree = "<group>";
+		};
+		F7ECF5CE1D80E3A200CD8B54 /* SpaciumTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7ECF5CF1D80E3A200CD8B54 /* SpaciumTests.swift */,
+				F7ECF5D11D80E3A200CD8B54 /* Info.plist */,
+			);
+			path = SpaciumTests;
+			sourceTree = "<group>";
+		};
+		F7ECF5D91D80E3A200CD8B54 /* SpaciumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F7ECF5DA1D80E3A200CD8B54 /* SpaciumUITests.swift */,
+				F7ECF5DC1D80E3A200CD8B54 /* Info.plist */,
+			);
+			path = SpaciumUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7ECF5B61D80E39F00CD8B54 /* Spacium */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7ECF5DF1D80E3A200CD8B54 /* Build configuration list for PBXNativeTarget "Spacium" */;
+			buildPhases = (
+				F7ECF5B31D80E39F00CD8B54 /* Sources */,
+				F7ECF5B41D80E39F00CD8B54 /* Frameworks */,
+				F7ECF5B51D80E39F00CD8B54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spacium;
+			productName = Spacium;
+			productReference = F7ECF5B71D80E39F00CD8B54 /* Spacium.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7ECF5CA1D80E3A200CD8B54 /* SpaciumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7ECF5E21D80E3A200CD8B54 /* Build configuration list for PBXNativeTarget "SpaciumTests" */;
+			buildPhases = (
+				F7ECF5C71D80E3A200CD8B54 /* Sources */,
+				F7ECF5C81D80E3A200CD8B54 /* Frameworks */,
+				F7ECF5C91D80E3A200CD8B54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7ECF5CD1D80E3A200CD8B54 /* PBXTargetDependency */,
+			);
+			name = SpaciumTests;
+			productName = SpaciumTests;
+			productReference = F7ECF5CB1D80E3A200CD8B54 /* SpaciumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F7ECF5D51D80E3A200CD8B54 /* SpaciumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7ECF5E51D80E3A200CD8B54 /* Build configuration list for PBXNativeTarget "SpaciumUITests" */;
+			buildPhases = (
+				F7ECF5D21D80E3A200CD8B54 /* Sources */,
+				F7ECF5D31D80E3A200CD8B54 /* Frameworks */,
+				F7ECF5D41D80E3A200CD8B54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7ECF5D81D80E3A200CD8B54 /* PBXTargetDependency */,
+			);
+			name = SpaciumUITests;
+			productName = SpaciumUITests;
+			productReference = F7ECF5D61D80E3A200CD8B54 /* SpaciumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7ECF5AF1D80E39F00CD8B54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Spacium;
+				TargetAttributes = {
+					F7ECF5B61D80E39F00CD8B54 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					F7ECF5CA1D80E3A200CD8B54 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F7ECF5B61D80E39F00CD8B54;
+					};
+					F7ECF5D51D80E3A200CD8B54 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F7ECF5B61D80E39F00CD8B54;
+					};
+				};
+			};
+			buildConfigurationList = F7ECF5B21D80E39F00CD8B54 /* Build configuration list for PBXProject "Spacium" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7ECF5AE1D80E39F00CD8B54;
+			productRefGroup = F7ECF5B81D80E39F00CD8B54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7ECF5B61D80E39F00CD8B54 /* Spacium */,
+				F7ECF5CA1D80E3A200CD8B54 /* SpaciumTests */,
+				F7ECF5D51D80E3A200CD8B54 /* SpaciumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7ECF5B51D80E39F00CD8B54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7ECF5C51D80E3A000CD8B54 /* LaunchScreen.storyboard in Resources */,
+				F7ECF5C21D80E3A000CD8B54 /* Assets.xcassets in Resources */,
+				F7ECF5C01D80E3A000CD8B54 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7ECF5C91D80E3A200CD8B54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7ECF5D41D80E3A200CD8B54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7ECF5B31D80E39F00CD8B54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7ECF5BD1D80E3A000CD8B54 /* ViewController.swift in Sources */,
+				F7ECF5BB1D80E3A000CD8B54 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7ECF5C71D80E3A200CD8B54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7ECF5D01D80E3A200CD8B54 /* SpaciumTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7ECF5D21D80E3A200CD8B54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7ECF5DB1D80E3A200CD8B54 /* SpaciumUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7ECF5CD1D80E3A200CD8B54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7ECF5B61D80E39F00CD8B54 /* Spacium */;
+			targetProxy = F7ECF5CC1D80E3A200CD8B54 /* PBXContainerItemProxy */;
+		};
+		F7ECF5D81D80E3A200CD8B54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7ECF5B61D80E39F00CD8B54 /* Spacium */;
+			targetProxy = F7ECF5D71D80E3A200CD8B54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7ECF5BE1D80E3A000CD8B54 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7ECF5BF1D80E3A000CD8B54 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7ECF5C31D80E3A000CD8B54 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7ECF5C41D80E3A000CD8B54 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7ECF5DD1D80E3A200CD8B54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7ECF5DE1D80E3A200CD8B54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7ECF5E01D80E3A200CD8B54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Spacium/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Spacium.FirstProject1.0.Spacium;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F7ECF5E11D80E3A200CD8B54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Spacium/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Spacium.FirstProject1.0.Spacium;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F7ECF5E31D80E3A200CD8B54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpaciumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Spacium.FirstProject1.0.SpaciumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spacium.app/Spacium";
+			};
+			name = Debug;
+		};
+		F7ECF5E41D80E3A200CD8B54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpaciumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Spacium.FirstProject1.0.SpaciumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spacium.app/Spacium";
+			};
+			name = Release;
+		};
+		F7ECF5E61D80E3A200CD8B54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SpaciumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Spacium.FirstProject1.0.SpaciumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Spacium;
+			};
+			name = Debug;
+		};
+		F7ECF5E71D80E3A200CD8B54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SpaciumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Spacium.FirstProject1.0.SpaciumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Spacium;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7ECF5B21D80E39F00CD8B54 /* Build configuration list for PBXProject "Spacium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7ECF5DD1D80E3A200CD8B54 /* Debug */,
+				F7ECF5DE1D80E3A200CD8B54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7ECF5DF1D80E3A200CD8B54 /* Build configuration list for PBXNativeTarget "Spacium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7ECF5E01D80E3A200CD8B54 /* Debug */,
+				F7ECF5E11D80E3A200CD8B54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F7ECF5E21D80E3A200CD8B54 /* Build configuration list for PBXNativeTarget "SpaciumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7ECF5E31D80E3A200CD8B54 /* Debug */,
+				F7ECF5E41D80E3A200CD8B54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F7ECF5E51D80E3A200CD8B54 /* Build configuration list for PBXNativeTarget "SpaciumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7ECF5E61D80E3A200CD8B54 /* Debug */,
+				F7ECF5E71D80E3A200CD8B54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7ECF5AF1D80E39F00CD8B54 /* Project object */;
+}
